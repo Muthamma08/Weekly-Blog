@@ -1,0 +1,12 @@
+<%- include("partials/header") -%>
+<div >
+<div class="container">
+  <p><%= Content %></p>
+  <% for(var i=0;i<newpost.length;i++){%>
+  <h2><em><%=newpost[i].title%></em></h2>
+  <p><%=newpost[i].yourblog.substring(0,100)+"..."%><a href="/viewpost/<%= newpost[i].title %>">Read more</a></p>
+  <%}%>
+</div>
+</div>
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,40 @@
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.container {
+  margin-left: 50px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-image: linear-gradient(135deg, #e3f2c1 10%, #b1c598 100%);
+}
+
+.navbar-nav li a:hover {
+  color: #7aa874 !important;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(135deg, #94af9f 10%, #bbd6b8 100%);
+}
+
+.footer p {
+  font-size: 12px;
+  color: #fff;
+}
